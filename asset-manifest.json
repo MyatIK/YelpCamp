@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/YelpCamp/static/css/main.718ac5ed.css",
+    "main.js": "/YelpCamp/static/js/main.84527036.js",
+    "static/js/787.f4e48d49.chunk.js": "/YelpCamp/static/js/787.f4e48d49.chunk.js",
+    "static/media/Map.png": "/YelpCamp/static/media/Map.97047be1897c5b8502a8.png",
+    "static/media/Hero Image.jpg": "/YelpCamp/static/media/Hero Image.38b8b3fabac0227de377.jpg",
+    "static/media/User Testimonial.svg": "/YelpCamp/static/media/User Testimonial.c9e4d5e582b324a74dc59142b0a7dc18.svg",
+    "static/media/Seven Sisters Waterfall.jpg": "/YelpCamp/static/media/Seven Sisters Waterfall.dd586b2b9b3faf8aff4e.jpg",
+    "static/media/Mount Ulap.jpg": "/YelpCamp/static/media/Mount Ulap.dade5f426139cc0e7b0a.jpg",
+    "static/media/Buloy Springs.jpg": "/YelpCamp/static/media/Buloy Springs.b8b377473d9305e0b9cc.jpg",
+    "static/media/Onay Beach.jpg": "/YelpCamp/static/media/Onay Beach.faca9752c2394b82bff1.jpg",
+    "static/media/Calaguas Island.jpg": "/YelpCamp/static/media/Calaguas Island.2df09fe53d3f4ef6b846.jpg",
+    "static/media/Latik Riverside.jpg": "/YelpCamp/static/media/Latik Riverside.8f639031d862d92cd404.jpg",
+    "static/media/Plum Guide.svg": "/YelpCamp/static/media/Plum Guide.d66d3818edbea987a53281009775af02.svg",
+    "static/media/Booking.svg": "/YelpCamp/static/media/Booking.e1646697164266eaaa49a8759109dae2.svg",
+    "static/media/Airbnb.svg": "/YelpCamp/static/media/Airbnb.2a4553a34ca91aa467bc3f95fdf81e77.svg",
+    "static/media/Logo.svg": "/YelpCamp/static/media/Logo.a6cc6b83b409af85c7e13827eaca8ea0.svg",
+    "static/media/Chat Bubble.svg": "/YelpCamp/static/media/Chat Bubble.39aa8a9b79e6f3944dbaaadda482811b.svg",
+    "index.html": "/YelpCamp/index.html",
+    "static/media/Checkmark.svg": "/YelpCamp/static/media/Checkmark.fe52f1e33a5ed6f1a2e8613f569a3434.svg",
+    "main.718ac5ed.css.map": "/YelpCamp/static/css/main.718ac5ed.css.map",
+    "main.84527036.js.map": "/YelpCamp/static/js/main.84527036.js.map",
+    "787.f4e48d49.chunk.js.map": "/YelpCamp/static/js/787.f4e48d49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.718ac5ed.css",
+    "static/js/main.84527036.js"
+  ]
+}
