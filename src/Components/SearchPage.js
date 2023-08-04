@@ -1,4 +1,5 @@
 import Header from './Header.js';
+import Header1 from './Header1.js';
 import Logo from '../Assets//Logo.svg';
 import {Link} from 'react-router-dom';
 import MountUlap from '../Assets/Camp Images/Compressed Images/Mount Ulap.jpg';
@@ -11,24 +12,14 @@ import BuloySprings from '../Assets/Camp Images/Compressed Images/Buloy Springs.
 function SearchPage(){
     return(
         <>
-            <Header></Header>
-
-            <div className="flex mt-5 ml-10 mr-10">
-                <Link to="/"><span><img src={Logo} className="p-2" alt="YelpCamp Logo"/></span></Link>
-                <Link to="/LandingPage"><p className="ml-10 mr-20 p-2">Home</p></Link>
-                <div className="flex absolute right-10">
-                    <Link to="/Login"><p className="mr-20 p-2">Login</p></Link>
-                    <button className="bg-black text-white rounded p-2 col-end-4">Create an account</button>
-
-                </div>
-                
-            </div>
-            <div className="mt-5 bg-yellow-100 mb-20 ml-10 mr-10 p-10">
+            <Header/>
+            <Header1/>
+            <div className="mt-5 bg-stone-100 mb-20 ml-10 mr-10 p-10">
                 <p className="text-3xl">Welcome to YelpCamp!</p>
                 <p>View our hand-picked campgrounds from all over the world, or add your own.</p>
                 <input type="text" className="rounded border-2 mr-5 p-2" placeholder="Search for camps" />
                 <button className="bg-black text-white mt-3 rounded p-2">Search</button>
-                <p className="mt-3 underline">Or add your own campground</p>
+                <Link to="/addcamp"><p className="mt-3 underline">Or add your own campground</p></Link>
             </div>
 
             <div className="grid grid-cols-3 grid-rows-2 ml-10 mr-10 gap-5">
@@ -37,7 +28,7 @@ function SearchPage(){
                     <div>
                         <p className="font-bold text-l ml-3">Mount Ulap</p>
                         <p className="text-gray-700 pb-3 ml-3">One of the most famous hikes in Benguet is Mt Ulap in Itogon.</p>
-                        <button className="w-full  h-10 border-2 rounded font-bold text-center">View Campground</button>
+                        <Link to="/IndividualCamp"><button className="w-full  h-10 border-2 rounded font-bold text-center">View Campground</button></Link>
 
                     </div>
                     

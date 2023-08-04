@@ -22,7 +22,7 @@ function SignIn(){
                     <button className="rounded bg-black text-white p-3 w-full mt-3">Login</button>
                     <div className="flex mt-3">
                         <p>Not a user yet?</p>
-                        <p className="underline text-blue-600">Create an account.</p>
+                        <Link to="/signup"><p className="underline text-blue-600">Create an account.</p></Link>
                     </div>
                 </div>
 
