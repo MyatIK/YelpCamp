@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/YelpCamp/static/css/main.718ac5ed.css",
-    "main.js": "/YelpCamp/static/js/main.84527036.js",
+    "main.css": "/YelpCamp/static/css/main.c8b5ee7e.css",
+    "main.js": "/YelpCamp/static/js/main.17272e86.js",
     "static/js/787.f4e48d49.chunk.js": "/YelpCamp/static/js/787.f4e48d49.chunk.js",
     "static/media/Map.png": "/YelpCamp/static/media/Map.97047be1897c5b8502a8.png",
     "static/media/Hero Image.jpg": "/YelpCamp/static/media/Hero Image.38b8b3fabac0227de377.jpg",
+    "static/media/Hero Image (Tablet and Mobile).jpg": "/YelpCamp/static/media/Hero Image (Tablet and Mobile).6adb03ce3e86546ed371.jpg",
     "static/media/User Testimonial.svg": "/YelpCamp/static/media/User Testimonial.c9e4d5e582b324a74dc59142b0a7dc18.svg",
     "static/media/Seven Sisters Waterfall.jpg": "/YelpCamp/static/media/Seven Sisters Waterfall.dd586b2b9b3faf8aff4e.jpg",
     "static/media/Mount Ulap.jpg": "/YelpCamp/static/media/Mount Ulap.dade5f426139cc0e7b0a.jpg",
@@ -19,12 +20,13 @@
     "static/media/Chat Bubble.svg": "/YelpCamp/static/media/Chat Bubble.39aa8a9b79e6f3944dbaaadda482811b.svg",
     "index.html": "/YelpCamp/index.html",
     "static/media/Checkmark.svg": "/YelpCamp/static/media/Checkmark.fe52f1e33a5ed6f1a2e8613f569a3434.svg",
-    "main.718ac5ed.css.map": "/YelpCamp/static/css/main.718ac5ed.css.map",
-    "main.84527036.js.map": "/YelpCamp/static/js/main.84527036.js.map",
+    "static/media/Hamburger Menu.svg": "/YelpCamp/static/media/Hamburger Menu.e01f1151b99b8b7098dbbb95b4286fdb.svg",
+    "main.c8b5ee7e.css.map": "/YelpCamp/static/css/main.c8b5ee7e.css.map",
+    "main.17272e86.js.map": "/YelpCamp/static/js/main.17272e86.js.map",
     "787.f4e48d49.chunk.js.map": "/YelpCamp/static/js/787.f4e48d49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.718ac5ed.css",
-    "static/js/main.84527036.js"
+    "static/css/main.c8b5ee7e.css",
+    "static/js/main.17272e86.js"
   ]
 }
