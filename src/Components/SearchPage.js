@@ -14,7 +14,7 @@ function SearchPage(){
         <>
             <Header/>
             <Header1/>
-            <div className="mt-5 bg-stone-100 mb-20 ml-10 mr-10 p-10">
+            <div className="mt-5 bg-stone-100 mb-10 ml-5 mr-5 p-5 lg:p-10 ml-10 mr-10 mb-20">
                 <p className="text-3xl">Welcome to YelpCamp!</p>
                 <p>View our hand-picked campgrounds from all over the world, or add your own.</p>
                 <input type="text" className="rounded border-2 mr-5 p-2" placeholder="Search for camps" />
@@ -22,7 +22,7 @@ function SearchPage(){
                 <Link to="/addcamp"><p className="mt-3 underline">Or add your own campground</p></Link>
             </div>
 
-            <div className="grid grid-cols-3 grid-rows-2 ml-10 mr-10 gap-5">
+            <div className="grid grid-cols-1 ml-5 mr-5 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 ml-10 mr-10 gap-5">
                 <div className="border-2 overflow-hidden rounded">
                     <img className="w-full px-3 pt-3" src={MountUlap} alt="Mount Ulap"/>
                     <div>

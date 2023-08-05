@@ -6,6 +6,7 @@ import AddComment from './Components/AddComment';
 import AddCamp from "./Components/AddCamp";
 import SignUp from "./Components/SignUp";
 import {Routes,Route} from 'react-router-dom';
+import { UserProvider } from "./Components/UserContext";
 
 function App() {
   return (
@@ -29,4 +30,13 @@ function App() {
   );
 }
 
-export default App;
+function Root() {
+  return (
+    <UserProvider>
+      <App />
+    </UserProvider>
+  );
+}
+
+
+export default Root;

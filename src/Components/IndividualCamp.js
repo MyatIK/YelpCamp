@@ -10,9 +10,9 @@ function IndividualCamp(){
         <div>
             <Header/>
             <Header1/>
-            <div className="grid grid-cols-3 ml-10 mr-10 grid-row-2 gap-4 mt-6">
+            <div className="grid grid-cols-1 ml-3 mr-3 lg:grid-cols-3 ml-10 mr-10 grid-row-2 gap-4 mt-6">
                 <div className="col-span-1">
-                    <img src={Map} alt="Map of Mount Ulap" className="border rounded p-10"/>
+                    <img src={Map} alt="Map of Mount Ulap" className="border rounded lg:p-10"/>
 
                 </div>
 

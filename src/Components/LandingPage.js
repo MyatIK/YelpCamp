@@ -5,15 +5,18 @@ import Airbnb from '../Assets/Airbnb.svg';
 import Booking from '../Assets/Booking.svg';
 import PulmGuide from '../Assets/Plum Guide.svg';
 import {Link} from 'react-router-dom';
+import HeroTablet from '../Assets/Hero Image (Tablet and Mobile).jpg';
 
 
 function LandingPage(){
     return(
         <>
-            <div className="grid grid-cols-2 gap-5">
-                <div className="ml-20 mr-20 bg">
-                    <Link to="/"><img className="mt-10 mb-8" src={Logo} alt="YelpCamp logo"/></Link>
-                    <p className="text-5xl mt-10 mb-3">Explore the best camps on Earth.</p>
+            <div>
+                <Link to="/"><img className="mt-10 mb-8 ml-5 lg:ml-20 mr-20" src={Logo} alt="YelpCamp logo"/></Link>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                <div className="ml-5 mr-5 lg:ml-20 mr-20">
+                    <p className="mt-10 mb-3 font-bold text-3xl md:text-5xl">Explore the best camps on Earth.</p>
                     <p>YelpCamp is a curated list of the best camping spots on Earth. Unfiltered and unbaised reviews.</p>
                     
                     <div className="mt-3">
@@ -49,7 +52,13 @@ function LandingPage(){
 
                     
                 </div>
-                <img className="object-cover" src={HeroDesktop} alt="campground with tents"/>
+                <div>
+                    <img className="container mx-auto hidden lg:block " src={HeroDesktop} alt="campground with tents"/>
+                    <img className="container mx-auto block lg:hidden" src={HeroTablet} alt="campground with tents"/>
+                </div>
+                
+                
+                
 
 
 
