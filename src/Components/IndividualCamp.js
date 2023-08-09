@@ -11,12 +11,12 @@ function IndividualCamp(){
             <Header/>
             <Header1/>
             <div className="grid grid-cols-1 ml-3 mr-3 lg:grid-cols-3 ml-10 mr-10 grid-row-2 gap-4 mt-6">
-                <div className="col-span-1">
+                <div className="container col-span-1">
                     <img src={Map} alt="Map of Mount Ulap" className="border rounded lg:p-10"/>
 
                 </div>
 
-                <div className="border rounded col-span-2 ">
+                <div className="container border rounded col-span-2 ">
                     <img src={MountUlap} alt="Mount Ulap" className="p-10"/>
                     <div className="flex relative ml-10 mr-10">
                         <p className="font-bold mb-3">Mount Ulap</p>

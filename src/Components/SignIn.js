@@ -3,8 +3,10 @@ import Testimonial from '../Assets/User Testimonial.svg';
 import {Link} from 'react-router-dom';
 import {useUser} from './UserContext';
 
+
 function SignIn(){
     const{signIn} =useUser();
+
     
     
     return(
@@ -19,7 +21,7 @@ function SignIn(){
                     <form className="mt-10 lg:mt-20">
                         <p className="text-3xl font-bold mb-5 ">Start exploring camps from all around the world.</p>
                         <label className="block mt-3 mb-3" for="username">Username</label>
-                        <input className="block bg-stone-100 rounded p-3 w-4/5 lg:w-full" type="text" placeholder='johndoe_91' id="username"/>
+                        <input  className="block bg-stone-100 rounded p-3 w-4/5 lg:w-full" type="text" placeholder='johndoe_91' id="username"/>
                         <label className="block mt-3 mb-3" for="password">Password</label>
                         <input type="password" placeholder="Enter Your Password" id="password" className="block bg-stone-100 rounded p-3 w-4/5 lg:w-full"/>
                     </form>

@@ -7,14 +7,14 @@ import PulmGuide from '../Assets/Plum Guide.svg';
 import {Link} from 'react-router-dom';
 import HeroTablet from '../Assets/Hero Image (Tablet and Mobile).jpg';
 
-
+//main page 
 function LandingPage(){
     return(
         <>
             <div>
                 <Link to="/"><img className="mt-10 mb-8 ml-5 lg:ml-20 mr-20" src={Logo} alt="YelpCamp logo"/></Link>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div className="flex flex-col-reverse lg:flex-row">
                 <div className="ml-5 mr-5 lg:ml-20 mr-20">
                     <p className="mt-10 mb-3 font-bold text-3xl md:text-5xl">Explore the best camps on Earth.</p>
                     <p>YelpCamp is a curated list of the best camping spots on Earth. Unfiltered and unbaised reviews.</p>
@@ -53,8 +53,8 @@ function LandingPage(){
                     
                 </div>
                 <div>
-                    <img className="container mx-auto hidden lg:block " src={HeroDesktop} alt="campground with tents"/>
-                    <img className="container mx-auto block lg:hidden" src={HeroTablet} alt="campground with tents"/>
+                    <img className="mx-auto hidden lg:block " src={HeroDesktop} alt="campground with tents"/>
+                    <img className="mx-auto block lg:hidden" src={HeroTablet} alt="campground with tents"/>
                 </div>
                 
                 

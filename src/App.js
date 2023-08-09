@@ -7,6 +7,7 @@ import AddCamp from "./Components/AddCamp";
 import SignUp from "./Components/SignUp";
 import {Routes,Route} from 'react-router-dom';
 import { UserProvider } from "./Components/UserContext";
+import HamburgerMenu from "./Components/HamburgerMenu";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/newcomment" element={<AddComment/>}></Route>
         <Route path="/addcamp" element={<AddCamp/>}></Route>
         <Route path="/signup" element={<SignUp/>}></Route>
+        <Route path="/menu" element={<HamburgerMenu/>}></Route>
                     
       </Routes>
       
